@@ -18,7 +18,7 @@ wc -l data.csv
 
 # 5. Find all files containing the word "error" in the "logs" folder
 # Your command here
-grep -l "error" logs/
+grep -rl "error" logs/
 
 # 6. Display the last 10 lines of "app.log"
 # Your command here
@@ -26,7 +26,7 @@ tail -n 10 app.log
 
 # 7. Change permissions of "script.sh" to make it executable for everyone
 # Your command here
-chmod a+x scripts.sh
+chmod a+x script.sh
 
 # 8. Use a command to search for the word "TODO" in every ".py" file in the current directory
 # Your command here
